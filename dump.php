@@ -11,7 +11,7 @@ $conn = mysqli_connect($host, $username, $password, $database_name);
 $conn->set_charset("utf8");
 
 
-// Get All Table Names From the Database
+// Get all table names from the database
 $tables = array();
 $sql = "SHOW TABLES";
 $result = mysqli_query($conn, $sql);
